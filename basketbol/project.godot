@@ -1,0 +1,29 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="basketbol"
+run/main_scene="uid://ch54qapx1bprg"
+config/features=PackedStringArray("4.4", "Forward Plus")
+config/icon="res://icon.svg"
+
+[importer_defaults]
+
+wavefront_obj={
+"force_disable_mesh_compression": false,
+"generate_lightmap_uv2": false,
+"generate_lightmap_uv2_texel_size": 0.2,
+"generate_lods": true,
+"generate_shadow_mesh": true,
+"generate_tangents": true,
+"offset_mesh": Vector3(0, 0, 0),
+"scale_mesh": Vector3(1, 1, 1)
+}
